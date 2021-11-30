@@ -12,6 +12,59 @@
 				"name": "Sno",
 				"type": "int",
 				"precision": 10
+			},
+			{
+				"name": "Entity",
+				"type": "varchar"
+			},
+			{
+				"name": "Daisy",
+				"type": "varchar"
+			},
+			{
+				"name": "Site Name",
+				"type": "varchar"
+			},
+			{
+				"name": "BR/HO",
+				"type": "varchar"
+			},
+			{
+				"name": "Users",
+				"type": "varchar"
+			},
+			{
+				"name": "Region",
+				"type": "varchar"
+			},
+			{
+				"name": "Location",
+				"type": "varchar"
+			},
+			{
+				"name": "Date",
+				"type": "date"
+			},
+			{
+				"name": "Duration",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "surveyor",
+				"type": "varchar"
+			},
+			{
+				"name": "site contact",
+				"type": "varchar"
+			},
+			{
+				"name": "%success",
+				"type": "varchar"
+			},
+			{
+				"name": "completed",
+				"type": "varchar"
 			}
 		],
 		"typeProperties": {
