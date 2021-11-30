@@ -8,7 +8,7 @@
 		"parameters": {
 			"SheetName": {
 				"type": "string",
-				"defaultValue": "@item()"
+				"defaultValue": "Data"
 			}
 		},
 		"annotations": [],
