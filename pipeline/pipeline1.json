@@ -64,7 +64,11 @@
 				"type": "ForEach",
 				"dependsOn": [],
 				"typeProperties": {
-					"isSequential": true
+					"items": {
+						"value": "@variables('SheetName')",
+						"type": "Expression"
+					},
+					"isSequential": false
 				}
 			}
 		],
