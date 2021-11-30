@@ -51,19 +51,20 @@
 				"precision": 10
 			},
 			{
-				"name": "surveyor",
+				"name": "Surveyor",
 				"type": "varchar"
 			},
 			{
-				"name": "site contact",
+				"name": "Site Contact",
 				"type": "varchar"
 			},
 			{
-				"name": "%success",
-				"type": "varchar"
+				"name": "% Success",
+				"type": "int",
+				"precision": 10
 			},
 			{
-				"name": "completed",
+				"name": "Completed",
 				"type": "varchar"
 			}
 		],
