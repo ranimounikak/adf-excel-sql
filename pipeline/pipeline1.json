@@ -77,7 +77,7 @@
 		"variables": {
 			"SheetName": {
 				"type": "String",
-				"defaultValue": "[\"Data\"]"
+				"defaultValue": "Data"
 			}
 		},
 		"annotations": []
