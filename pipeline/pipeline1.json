@@ -59,7 +59,7 @@
 									"referenceName": "Excel2",
 									"type": "DatasetReference",
 									"parameters": {
-										"SheetName": "@item()"
+										"SheetName": "Data"
 									}
 								}
 							],
