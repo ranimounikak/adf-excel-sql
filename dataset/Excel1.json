@@ -1,0 +1,49 @@
+{
+	"name": "Excel1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"SheetName": {
+				"type": "string",
+				"defaultValue": "Domains"
+			}
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "@dataset().SheetName",
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Copy of GRP IT Site Survey Form__FINAL 25112021.xlsx",
+				"folderPath": "raw/lob",
+				"fileSystem": "adfdemofs"
+			}
+		},
+		"schema": [
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			}
+		]
+	}
+}
