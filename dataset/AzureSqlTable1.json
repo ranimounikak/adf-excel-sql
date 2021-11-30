@@ -63,7 +63,7 @@
 				"type": "varchar"
 			},
 			{
-				"name": "% Success ",
+				"name": "Success",
 				"type": "int",
 				"precision": 10
 			}
