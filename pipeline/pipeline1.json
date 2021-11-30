@@ -76,8 +76,10 @@
 		],
 		"variables": {
 			"SheetName": {
-				"type": "String",
-				"defaultValue": "Data"
+				"type": "Array",
+				"defaultValue": [
+					"Data"
+				]
 			}
 		},
 		"annotations": []
