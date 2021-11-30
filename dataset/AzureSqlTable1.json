@@ -9,12 +9,9 @@
 		"type": "AzureSqlTable",
 		"schema": [
 			{
-				"name": "col1",
-				"type": "varchar"
-			},
-			{
-				"name": "col2",
-				"type": "varchar"
+				"name": "Sno",
+				"type": "int",
+				"precision": 10
 			}
 		],
 		"typeProperties": {
