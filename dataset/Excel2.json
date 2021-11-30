@@ -5,6 +5,12 @@
 			"referenceName": "AzureDataLakeStorage1",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"SheetName": {
+				"type": "string",
+				"defaultValue": "@item()"
+			}
+		},
 		"annotations": [],
 		"type": "Excel",
 		"typeProperties": {
