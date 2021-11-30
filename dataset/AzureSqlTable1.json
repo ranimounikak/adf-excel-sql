@@ -59,13 +59,13 @@
 				"type": "varchar"
 			},
 			{
-				"name": "% Success",
-				"type": "int",
-				"precision": 10
-			},
-			{
 				"name": "Completed",
 				"type": "varchar"
+			},
+			{
+				"name": "% Success ",
+				"type": "int",
+				"precision": 10
 			}
 		],
 		"typeProperties": {
