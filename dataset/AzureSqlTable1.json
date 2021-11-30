@@ -16,7 +16,7 @@
 		],
 		"typeProperties": {
 			"schema": "dbo",
-			"table": "table1"
+			"table": "survey"
 		}
 	}
 }
