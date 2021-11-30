@@ -14,7 +14,6 @@
 		"annotations": [],
 		"type": "Excel",
 		"typeProperties": {
-			"sheetName": "@dataset().SheetName",
 			"location": {
 				"type": "AzureBlobFSLocation",
 				"fileName": "Survey_Assessment_Template_V1_30112021.xlsx",
