@@ -51,26 +51,8 @@
 						"type": "DatasetReference"
 					}
 				]
-			},
-			{
-				"name": "ForEach1",
-				"type": "ForEach",
-				"dependsOn": [],
-				"typeProperties": {
-					"items": {
-						"value": "@variables('SheetName')",
-						"type": "Expression"
-					},
-					"isSequential": false
-				}
 			}
 		],
-		"variables": {
-			"SheetName": {
-				"type": "String",
-				"defaultValue": "[\"Domains\"]"
-			}
-		},
 		"annotations": []
 	}
 }
